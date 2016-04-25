@@ -11,6 +11,8 @@ SystemJS.config({
       "app/scss/main.scss!github:mobilexag/plugin-sass@0.4.2/index.js",
       "github:mobilexag/plugin-sass@0.4.2.json",
       "app/scripts/modules/app/component/app.component.ts",
+      "app/scripts/modules/app/template/app.template.html!github:systemjs/plugin-text@0.0.7/text.js",
+      "github:systemjs/plugin-text@0.0.7.json",
       "npm:angular2@2.0.0-beta.15/core.js",
       "npm:angular2@2.0.0-beta.15.json",
       "npm:angular2@2.0.0-beta.15/src/core/reflection/reflection.js",

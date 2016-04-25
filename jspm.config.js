@@ -2,9 +2,9 @@ SystemJS.config({
   baseURI: '.',
   transpiler: 'plugin-babel',
   babelOptions: {
-    "optional": [
-      "runtime",
-      "optimisation.modules.system"
+    'optional': [
+      'runtime',
+      'optimisation.modules.system'
     ]
   },
   packages: {
@@ -15,9 +15,6 @@ SystemJS.config({
       'meta': {
         '*.ts': {
           'loader': 'plugin-typescript'
-        },
-        '*.html': {
-          'loader': 'text'
         }
       }
     }
@@ -57,6 +54,7 @@ SystemJS.config({
     'scss': 'github:mobilexag/plugin-sass@0.4.2',
     'stream': 'github:jspm/nodelibs-stream@0.2.0-alpha',
     'string_decoder': 'github:jspm/nodelibs-string_decoder@0.2.0-alpha',
+    'text': 'github:systemjs/plugin-text@0.0.7',
     'tls': 'github:jspm/nodelibs-tls@0.2.0-alpha',
     'tty': 'github:jspm/nodelibs-tty@0.2.0-alpha',
     'typings': 'npm:typings@0.8.1',

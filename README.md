@@ -8,5 +8,6 @@ lite-server
 
 ## Current issues
 
-* [ ] can't load external templates
+* [x] can't load external templates
+    * FIX: install text plugin (`jspm install text`) and set `text` loader for `*.html` files
     * probably related to this https://github.com/Microsoft/TypeScript/issues/6615

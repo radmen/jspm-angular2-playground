@@ -7,6 +7,7 @@
       "bootstrap-sass": "github:twbs/bootstrap-sass@^3.3.6",
       "plugin-babel": "npm:systemjs-plugin-babel@^0.0.9",
       "scss": "github:mobilexag/plugin-sass@^0.4.2",
+      "text": "github:systemjs/plugin-text@^0.0.7",
       "typings": "npm:typings@^0.8.1"
     },
     "devDependencies": {
